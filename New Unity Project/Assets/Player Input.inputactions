@@ -1,5 +1,5 @@
 {
-    "name": "New Controls",
+    "name": "Player Input",
     "maps": [
         {
             "name": "New action map",
@@ -64,6 +64,33 @@
                     "processors": "",
                     "groups": "New control scheme",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "New action map1",
+            "id": "302f88c5-db9e-455b-a7d4-cfcc49e3f5aa",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "52240024-f483-4d77-91ec-9adf81926c83",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "95489ce3-0e8c-4051-bf35-7842de6dca84",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
